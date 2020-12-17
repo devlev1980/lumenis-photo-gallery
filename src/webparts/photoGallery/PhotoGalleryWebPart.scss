@@ -14,7 +14,6 @@ $title_background: #f0f0f0;
 
 #PhotoGalleryWebpartWrapper {
   direction: rtl;
-  //background: #1a87bc;
   font-family: "Open Sans",sans-serif;
   .LinksWrapper2 {
     display: flex;
@@ -28,7 +27,7 @@ $title_background: #f0f0f0;
       }
       .LinkImage2 {
         width: 100%;
-        margin-bottom:1rem;
+        margin-bottom:10px;
         button {
           padding: 0.5rem;
           box-shadow: none;
@@ -67,6 +66,21 @@ $title_background: #f0f0f0;
       width: 100%;
     }
   }
+  .divider {
+    width: 1px;
+    /* height: 100%; */
+    background-color: green;
+    margin: 0 0.75em;
+    display: block;
+    z-index: 100;
+    position: relative;
+
+    &:last-child{
+      opacity: 0;
+      display: none;
+    }
+    /* right: 25px; */
+  }
   h2 {
     color: #040507;
     margin-top: 5px;
@@ -97,9 +111,10 @@ h2{
   font-size: 23px;
 }
 #PhotoGalleryTable > div:nth-child(2) {
-  width:100%;
-  background: $white_color;
-  padding: 16px 0;
+    width: 100%;
+    background: red;
+    padding: 16px 0;
+    border-radius: 10px;
 }
 
 

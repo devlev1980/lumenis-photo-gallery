@@ -111,11 +111,12 @@ export default class PhotoGalleryWebPart extends BaseClientSideWebPart<IPhotoGal
 
           <div class="image-item" style="border-left: 1px solid lightgray;">
               <img src="${PhotoGalleryWebPart.getAbsoluteDomainUrl()}${item.ServerRelativeUrl}">
-          </div>`;
+          </div> <div class="divider"></div>`;
+
       }
       else {
         html += `
-          <div class="image-item" style="border-left: 1px solid lightgray;"><img src="${PhotoGalleryWebPart.getAbsoluteDomainUrl()}${item.ServerRelativeUrl}"></div>`;
+          <div class="image-item" style="border-left: 1px solid lightgray;"><img src="${PhotoGalleryWebPart.getAbsoluteDomainUrl()}${item.ServerRelativeUrl}"></div><div class="divider"></div>`;
       }
       index++;
     });
@@ -203,7 +204,7 @@ export default class PhotoGalleryWebPart extends BaseClientSideWebPart<IPhotoGal
 
     html += `<div class="LinksWrapper2">
 
-                                  <div class="LinksWrapper-Raw2" > <h2  style="color: #040507";>${this.properties.linksImagesTitle}</h2>` ;
+                                  <div class="LinksWrapper-Raw2" > <h2  style="color: #040507";>${this.properties.linksImagesTitle}</h2><div class="raws-wrapper">` ;
     if (this.properties.Link1 != "") {
       html += `<div class="LinksTab2" >
                                     <div class="LinkImage2" >
@@ -212,7 +213,7 @@ export default class PhotoGalleryWebPart extends BaseClientSideWebPart<IPhotoGal
                                       </a>
                                       <br>
                                     </div>
-                                  </div>`;
+                                  </div> `;
     }
     if (this.properties.Link2 != "") {
       html += `<div class="LinksTab2">
@@ -235,7 +236,7 @@ export default class PhotoGalleryWebPart extends BaseClientSideWebPart<IPhotoGal
                                     <div class="LinkImage2">
                                       <button type="button" class="ImageInLink2" onclick="location.href='${this.properties.Link4}';">${this.properties.Link4Text}</button>
                                     </div>
-                                  </div>`;
+                                  </div> </div>`;
                                   // <a href="${escape(this.properties.Link4)}"><img class="ImageInLink2" style="width: 11.3vw; height: 1.58vw;" src="${escape(this.properties.LinkImage4)}"></a><br>
 
       html += `</div>
