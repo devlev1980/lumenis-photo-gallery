@@ -1,0 +1,169 @@
+/*!* @media (min-width:600px)  { *!*/
+/*    !* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) *! */
+/* */
+/*    !* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) *! */
+/*   */
+/*    #PhotoGalleryWebpartWrapper {*/
+/*        width: 100%;*/
+/*        border-radius: 0.7vw;*/
+/*        max-height: 15.7vw;*/
+/*        position: relative;*/
+/*        top: 41px;*/
+/*    }*/
+
+/*    .LinksWrapper2{*/
+/*        margin-top: 0.35vw;*/
+/*    }*/
+/*    */
+/*    #LinksImages {*/
+/*        display: block;*/
+/*        position: relative;*/
+/*    }*/
+
+/*    #PhotoGalleryTable {*/
+/*        display: block;*/
+/*        position: relative;*/
+/*        float: right;*/
+/*        position: relative;*/
+/*        top: 6px;*/
+/*    }*/
+
+/*    .ImageInLink2{*/
+/*        border-radius: .3vw;*/
+/*        font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;*/
+/*        font-size: .8vw;    */
+/*        width: 100%;*/
+/*        color: #040507;*/
+/*        font-weight: 600;*/
+/*        margin-top: 0.15vw;*/
+/*        border-color: transparent;*/
+/*    }*/
+
+/*    button.ImageInLink2{*/
+/*        background-color: #e2e8f1;*/
+/*        cursor: pointer;*/
+/*        margin-top: 0vw;*/
+/*        margin-bottom: .15vw;*/
+/*        padding: 4px;*/
+/*    }*/
+/*    */
+/*    #PhotoGalleryWebpartHeader {*/
+/*        color: #69908D;*/
+/*        font-size: 1.22vw;*/
+/*        font-weight: bold;*/
+/*        text-align: center;*/
+/*        font-family: Segoe UI,"Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;*/
+/*        padding-top: 0.5vw;*/
+/*    }*/
+/* */
+/*    #slidesShow-Container {*/
+/*         width: 100%;*/
+/*         position: relative;*/
+/*    }*/
+
+/*    #slidesShow-Container img {*/
+/*        height: 4vw;*/
+/*        margin-left: auto;*/
+/*        width: 6vw;*/
+/*        margin-right: auto;*/
+/*        display: block;*/
+/*        margin-top: 0.2vw;*/
+/*    }*/
+/*    !* Next & previous buttons *!*/
+/*    #prev, #next {*/
+/*        cursor: pointer;*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        width: auto;*/
+/*        padding: 0.6vw;*/
+/*        margin-top: -2vw;*/
+/*        color: #69908d;*/
+/*        font-weight: bold;*/
+/*        font-size: 1vw;*/
+/*        transition: 0.6s ease;*/
+/*        border-radius: 0 3px 3px 0;*/
+/*        user-select: none;*/
+/*    }*/
+/*    */
+/*    !* Position the "next button" to the right *!*/
+/*    #next {*/
+/*        left: 0;*/
+/*        border-radius: 3px 0 0 3px;*/
+/*    }*/
+/*    */
+/*    !* On hover, add a black background color with a little bit see-through *!*/
+/*    #prev:hover, #next:hover {*/
+/*        background-color: rgba(0,0,0,0.8);*/
+/*    }*/
+/*!* } *!*/
+/*   */
+/*   */
+/*   !* @media (max-width:600px)  {*/
+/*    !* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) *! */
+/*   */
+/*    !* #PhotoGalleryWebpartWrapper {*/
+/*        width: 100%;*/
+/*        border-radius: 1.5vw;*/
+/*        height: 54.5vw;*/
+/*    }*/
+/*    */
+/*    #PhotoGalleryWebpartHeader {*/
+/*        color: #69908D;*/
+/*        font-size: 4.22vw;*/
+/*        font-weight: bold;*/
+/*        text-align: center;*/
+/*        font-family: Segoe UI,"Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;*/
+/*        padding-top: 0.5vw;*/
+/*    }*/
+/* */
+/*    #slidesShow-Container {*/
+/*         width: 100%;*/
+/*         position: relative; */
+/*    }*/
+
+/*    #slidesShow-Container img {*/
+/*        height: 40vw;*/
+/*        margin-left: auto;*/
+/*        width: 53.5vw !important;*/
+/*        margin-right: auto;*/
+/*        display: block;*/
+/*        margin-top: 3vw;*/
+/*        max-width: 86%;*/
+/*    }*/
+/*    !* Next & previous buttons *!*/
+/*    !* #prev, #next {*/
+/*        cursor: pointer;*/
+/*        position: absolute;*/
+/*        top: 50%;*/
+/*        width: auto;*/
+/*        padding: 0.7vw;*/
+/*        margin-top: -5vw;*/
+/*        color: #69908d;*/
+/*        font-weight: bold;*/
+/*        font-size: 4vw;*/
+/*        transition: 0.6s ease;*/
+/*        border-radius: 0 3px 3px 0;*/
+/*        user-select: none;*/
+/*    }*/
+/*    */
+/*    !* Position the "next button" to the right *!*/
+/*    !* #next {*/
+/*        left: 0;*/
+/*        border-radius: 3px 0 0 3px;*/
+/*    } *!*/
+/*    */
+/*    !* On hover, add a black background color with a little bit see-through *!*/
+/*    !* #prev:hover, #next:hover {*/
+/*        background-color: rgba(0,0,0,0.8);*/
+/*    }*/
+/*} *!*/
+
+
+/*@media (max-width: 1400px){*/
+/*    #PhotoGalleryWebpartWrapper{*/
+/*        top:-15px;*/
+/*    }*/
+/*    button.ImageInLink2{*/
+/*        padding: 2.5px;*/
+/*    }*/
+/*}*/

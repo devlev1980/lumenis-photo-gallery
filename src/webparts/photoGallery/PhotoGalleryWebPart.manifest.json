@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "22aa1373-6489-42d6-878d-78dc2625f66f",
+  "alias": "PhotoGalleryWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Photo Gallery" },
+    "description": { "default": "Photo Gallery description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Photo Gallery",
+      "photosLibraryName": ""
+    }
+  }]
+}

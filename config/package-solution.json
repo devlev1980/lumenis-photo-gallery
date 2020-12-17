@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "photo-gallery-webpart-client-side-solution",
+    "id": "47533b7c-daab-4f52-8523-59ba4f0ac0e9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/photo-gallery-webpart.sppkg"
+  }
+}

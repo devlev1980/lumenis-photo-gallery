@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+$background: #e3e3e3;
+$white_color: #fff;
+$main_color: #09294a;
+$title_background: #f0f0f0;
+
+
+#workbenchPageContent {
+  max-width: 1200px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#PhotoGalleryWebpartWrapper {
+  direction: rtl;
+  //background: #1a87bc;
+  font-family: "Open Sans",sans-serif;
+  .LinksWrapper2 {
+    display: flex;
+    align-items: baseline;
+
+    .LinksWrapper-Raw2 {
+      flex: 1 1 20%;
+      //border: 1px solid red;
+      h2{
+        margin-bottom: 2.5rem;
+      }
+      .LinkImage2 {
+        width: 100%;
+        margin-bottom:1rem;
+        button {
+          padding: 0.5rem;
+          box-shadow: none;
+          border: 0;
+          background: rgba(229, 234, 242, 1);
+          font-weight: 400;
+          font-size: 18px;
+
+        }
+        img,button {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+    }
+
+  }
+
+}
+#PhotoGalleryTable {
+  //border: 1px solid green;
+  width: 72%;
+  background: white;
+  padding: 10px 5px;
+
+  #slidesShow-Container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .image-item {
+    max-width: 200px;
+    width: 100%;
+
+    img{
+      width: 100%;
+    }
+  }
+  h2 {
+    color: #040507;
+    margin-top: 5px;
+    margin-bottom: 2.6rem;
+  }
+  #FileProperties{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 2rem;
+    div{
+      img{
+        margin-left: 5px;
+      }
+    }
+
+
+  }
+  #after-slidesShow-Container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 2.5rem;
+  }
+
+}
+h2{
+  font-family: "Open Sans",sans-serif;
+  font-weight: normal;
+  font-size: 23px;
+}
+#PhotoGalleryTable > div:nth-child(2) {
+  width:100%;
+  background: $white_color;
+  padding: 16px 0;
+}
+
+
+
+
+
