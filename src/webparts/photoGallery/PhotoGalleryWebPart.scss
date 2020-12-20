@@ -21,20 +21,19 @@ $title_background: #f0f0f0;
 
     .LinksWrapper-Raw2 {
       flex: 1 1 20%;
-      //border: 1px solid red;
       h2{
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
       }
       .LinkImage2 {
         width: 100%;
         margin-bottom:10px;
         button {
-          padding: 0.5rem;
           box-shadow: none;
           border: 0;
           background: rgba(229, 234, 242, 1);
           font-weight: 400;
-          font-size: 18px;
+          padding: 0.4rem;
+          font-size: 15px;
 
         }
         img,button {
@@ -48,9 +47,8 @@ $title_background: #f0f0f0;
 
 }
 #PhotoGalleryTable {
-  //border: 1px solid green;
   width: 72%;
-  background: white;
+  background: $white_color;
   padding: 10px 5px;
 
   #slidesShow-Container{
@@ -68,7 +66,6 @@ $title_background: #f0f0f0;
   }
   .divider {
     width: 1px;
-    /* height: 100%; */
     background-color: green;
     margin: 0 0.75em;
     display: block;
@@ -79,17 +76,16 @@ $title_background: #f0f0f0;
       opacity: 0;
       display: none;
     }
-    /* right: 25px; */
   }
   h2 {
     color: #040507;
     margin-top: 5px;
-    margin-bottom: 2.6rem;
+    margin-bottom: 0;
   }
   #FileProperties{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-right: 2rem;
+    //margin-right: 2rem;
     div{
       img{
         margin-left: 5px;
@@ -112,7 +108,7 @@ h2{
 }
 #PhotoGalleryTable > div:nth-child(2) {
     width: 100%;
-    background: red;
+    //background: red;
     padding: 16px 0;
     border-radius: 10px;
 }
